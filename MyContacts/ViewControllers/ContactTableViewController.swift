@@ -43,7 +43,7 @@ class ContactTableViewController: UITableViewController {
 		
 		super.viewWillAppear(animated)
 		
-		fetchData()
+		contacts = fetchData()
 	}
 	
 	var managedContext: NSManagedObjectContext? {
@@ -52,10 +52,13 @@ class ContactTableViewController: UITableViewController {
 		
 		return appDelegate.persistentContainer.viewContext
 	}
+	
 	// retrieve data from store
-	func fetchData() {
+	func fetchData() -> [Contact] {
 		
-		guard let managedContext = managedContext else { return }
+		var contacts: [Contact] = []
+		
+		guard let managedContext = managedContext else { return contacts }
 		
 		let fetchRequest = NSFetchRequest<Contact>(entityName: Constants.Entity.Contact)
 
@@ -64,6 +67,8 @@ class ContactTableViewController: UITableViewController {
 		} catch let error as NSError {
 			print("Could not fetch. \(error), \(error.userInfo)")
 		}
+		
+		return contacts
 	}
 	
 	func createContact() -> Contact? {

@@ -11,7 +11,6 @@
 		174EB3F020B4AA9C0083157D /* MyContacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 174EB3EE20B4AA9C0083157D /* MyContacts.xcdatamodeld */; };
 		174EB3F220B4AA9E0083157D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 174EB3F120B4AA9E0083157D /* Assets.xcassets */; };
 		174EB3F520B4AA9E0083157D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 174EB3F320B4AA9E0083157D /* LaunchScreen.storyboard */; };
-		174EB40020B4AA9F0083157D /* MyContactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EB3FF20B4AA9F0083157D /* MyContactsTests.swift */; };
 		174EB40D20B4AAF90083157D /* ContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EB40B20B4AAF90083157D /* ContactTableViewController.swift */; };
 		174EB40E20B4AAF90083157D /* ContactTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174EB40C20B4AAF90083157D /* ContactTableViewController.xib */; };
 		174EB41120B4AB990083157D /* EditContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EB40F20B4AB990083157D /* EditContactViewController.swift */; };
@@ -26,6 +25,9 @@
 		174EB42E20B5A5990083157D /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EB42C20B5A5990083157D /* ContactViewController.swift */; };
 		174EB42F20B5A5990083157D /* ContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174EB42D20B5A5990083157D /* ContactViewController.xib */; };
 		174EB43220B5B35D0083157D /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EB43120B5B35D0083157D /* File.swift */; };
+		174EB43420B5C03E0083157D /* ContactTableViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EB43320B5C03E0083157D /* ContactTableViewControllerTests.swift */; };
+		174EB43620B5E09B0083157D /* ContactViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EB43520B5E09B0083157D /* ContactViewControllerTests.swift */; };
+		174EB43820B608D30083157D /* EditContactViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EB43720B608D30083157D /* EditContactViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +48,6 @@
 		174EB3F420B4AA9E0083157D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		174EB3F620B4AA9E0083157D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		174EB3FB20B4AA9F0083157D /* MyContactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyContactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		174EB3FF20B4AA9F0083157D /* MyContactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyContactsTests.swift; sourceTree = "<group>"; };
 		174EB40120B4AA9F0083157D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		174EB40B20B4AAF90083157D /* ContactTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewController.swift; sourceTree = "<group>"; };
 		174EB40C20B4AAF90083157D /* ContactTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactTableViewController.xib; sourceTree = "<group>"; };
@@ -62,6 +63,9 @@
 		174EB42C20B5A5990083157D /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		174EB42D20B5A5990083157D /* ContactViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactViewController.xib; sourceTree = "<group>"; };
 		174EB43120B5B35D0083157D /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		174EB43320B5C03E0083157D /* ContactTableViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewControllerTests.swift; sourceTree = "<group>"; };
+		174EB43520B5E09B0083157D /* ContactViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewControllerTests.swift; sourceTree = "<group>"; };
+		174EB43720B608D30083157D /* EditContactViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditContactViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +123,9 @@
 		174EB3FE20B4AA9F0083157D /* MyContactsTests */ = {
 			isa = PBXGroup;
 			children = (
-				174EB3FF20B4AA9F0083157D /* MyContactsTests.swift */,
+				174EB43320B5C03E0083157D /* ContactTableViewControllerTests.swift */,
+				174EB43520B5E09B0083157D /* ContactViewControllerTests.swift */,
+				174EB43720B608D30083157D /* EditContactViewControllerTests.swift */,
 				174EB40120B4AA9F0083157D /* Info.plist */,
 			);
 			path = MyContactsTests;
@@ -290,7 +296,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				174EB40020B4AA9F0083157D /* MyContactsTests.swift in Sources */,
+				174EB43620B5E09B0083157D /* ContactViewControllerTests.swift in Sources */,
+				174EB43820B608D30083157D /* EditContactViewControllerTests.swift in Sources */,
+				174EB43420B5C03E0083157D /* ContactTableViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
