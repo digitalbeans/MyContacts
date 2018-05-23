@@ -8,12 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		174EB3E820B4AA9C0083157D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EB3E720B4AA9C0083157D /* AppDelegate.swift */; };
-		174EB3EA20B4AA9C0083157D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EB3E920B4AA9C0083157D /* ViewController.swift */; };
-		174EB3ED20B4AA9C0083157D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 174EB3EB20B4AA9C0083157D /* Main.storyboard */; };
 		174EB3F020B4AA9C0083157D /* MyContacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 174EB3EE20B4AA9C0083157D /* MyContacts.xcdatamodeld */; };
 		174EB3F220B4AA9E0083157D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 174EB3F120B4AA9E0083157D /* Assets.xcassets */; };
 		174EB3F520B4AA9E0083157D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 174EB3F320B4AA9E0083157D /* LaunchScreen.storyboard */; };
 		174EB40020B4AA9F0083157D /* MyContactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EB3FF20B4AA9F0083157D /* MyContactsTests.swift */; };
+		174EB40D20B4AAF90083157D /* ContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EB40B20B4AAF90083157D /* ContactTableViewController.swift */; };
+		174EB40E20B4AAF90083157D /* ContactTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174EB40C20B4AAF90083157D /* ContactTableViewController.xib */; };
+		174EB41120B4AB990083157D /* EditContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EB40F20B4AB990083157D /* EditContactViewController.swift */; };
+		174EB41220B4AB990083157D /* EditContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174EB41020B4AB990083157D /* EditContactViewController.xib */; };
+		174EB41520B4ABF70083157D /* ContactOld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EB41420B4ABF70083157D /* ContactOld.swift */; };
+		174EB41D20B4D1540083157D /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EB41B20B4D1540083157D /* ContactTableViewCell.swift */; };
+		174EB41E20B4D1540083157D /* ContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174EB41C20B4D1540083157D /* ContactTableViewCell.xib */; };
+		174EB42220B4D1F30083157D /* UITableViewCell+MyContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EB42120B4D1F30083157D /* UITableViewCell+MyContacts.swift */; };
+		174EB42620B4D4140083157D /* UIViewController+MyContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EB42520B4D4140083157D /* UIViewController+MyContacts.swift */; };
+		174EB42920B507610083157D /* Contact+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EB42720B507610083157D /* Contact+CoreDataClass.swift */; };
+		174EB42A20B507610083157D /* Contact+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EB42820B507610083157D /* Contact+CoreDataProperties.swift */; };
+		174EB42E20B5A5990083157D /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EB42C20B5A5990083157D /* ContactViewController.swift */; };
+		174EB42F20B5A5990083157D /* ContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174EB42D20B5A5990083157D /* ContactViewController.xib */; };
+		174EB43220B5B35D0083157D /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EB43120B5B35D0083157D /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,8 +41,6 @@
 /* Begin PBXFileReference section */
 		174EB3E420B4AA9C0083157D /* MyContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		174EB3E720B4AA9C0083157D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		174EB3E920B4AA9C0083157D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		174EB3EC20B4AA9C0083157D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		174EB3EF20B4AA9C0083157D /* MyContacts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyContacts.xcdatamodel; sourceTree = "<group>"; };
 		174EB3F120B4AA9E0083157D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		174EB3F420B4AA9E0083157D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +48,20 @@
 		174EB3FB20B4AA9F0083157D /* MyContactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyContactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		174EB3FF20B4AA9F0083157D /* MyContactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyContactsTests.swift; sourceTree = "<group>"; };
 		174EB40120B4AA9F0083157D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		174EB40B20B4AAF90083157D /* ContactTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewController.swift; sourceTree = "<group>"; };
+		174EB40C20B4AAF90083157D /* ContactTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactTableViewController.xib; sourceTree = "<group>"; };
+		174EB40F20B4AB990083157D /* EditContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditContactViewController.swift; sourceTree = "<group>"; };
+		174EB41020B4AB990083157D /* EditContactViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditContactViewController.xib; sourceTree = "<group>"; };
+		174EB41420B4ABF70083157D /* ContactOld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactOld.swift; sourceTree = "<group>"; };
+		174EB41B20B4D1540083157D /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		174EB41C20B4D1540083157D /* ContactTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactTableViewCell.xib; sourceTree = "<group>"; };
+		174EB42120B4D1F30083157D /* UITableViewCell+MyContacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+MyContacts.swift"; sourceTree = "<group>"; };
+		174EB42520B4D4140083157D /* UIViewController+MyContacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+MyContacts.swift"; sourceTree = "<group>"; };
+		174EB42720B507610083157D /* Contact+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contact+CoreDataClass.swift"; sourceTree = "<group>"; };
+		174EB42820B507610083157D /* Contact+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contact+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		174EB42C20B5A5990083157D /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		174EB42D20B5A5990083157D /* ContactViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactViewController.xib; sourceTree = "<group>"; };
+		174EB43120B5B35D0083157D /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				174EB3E720B4AA9C0083157D /* AppDelegate.swift */,
-				174EB3E920B4AA9C0083157D /* ViewController.swift */,
-				174EB3EB20B4AA9C0083157D /* Main.storyboard */,
+				174EB43020B5B34C0083157D /* Constants */,
+				174EB42020B4D1CE0083157D /* Extensions */,
+				174EB41320B4ABB00083157D /* Model */,
+				174EB40A20B4AACE0083157D /* ViewControllers */,
 				174EB3F120B4AA9E0083157D /* Assets.xcassets */,
 				174EB3F320B4AA9E0083157D /* LaunchScreen.storyboard */,
 				174EB3F620B4AA9E0083157D /* Info.plist */,
@@ -97,6 +123,48 @@
 				174EB40120B4AA9F0083157D /* Info.plist */,
 			);
 			path = MyContactsTests;
+			sourceTree = "<group>";
+		};
+		174EB40A20B4AACE0083157D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				174EB40B20B4AAF90083157D /* ContactTableViewController.swift */,
+				174EB40C20B4AAF90083157D /* ContactTableViewController.xib */,
+				174EB41B20B4D1540083157D /* ContactTableViewCell.swift */,
+				174EB41C20B4D1540083157D /* ContactTableViewCell.xib */,
+				174EB40F20B4AB990083157D /* EditContactViewController.swift */,
+				174EB41020B4AB990083157D /* EditContactViewController.xib */,
+				174EB42C20B5A5990083157D /* ContactViewController.swift */,
+				174EB42D20B5A5990083157D /* ContactViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		174EB41320B4ABB00083157D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				174EB42720B507610083157D /* Contact+CoreDataClass.swift */,
+				174EB42820B507610083157D /* Contact+CoreDataProperties.swift */,
+				174EB41420B4ABF70083157D /* ContactOld.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		174EB42020B4D1CE0083157D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				174EB42120B4D1F30083157D /* UITableViewCell+MyContacts.swift */,
+				174EB42520B4D4140083157D /* UIViewController+MyContacts.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		174EB43020B5B34C0083157D /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				174EB43120B5B35D0083157D /* File.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,9 +248,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				174EB41E20B4D1540083157D /* ContactTableViewCell.xib in Resources */,
+				174EB41220B4AB990083157D /* EditContactViewController.xib in Resources */,
 				174EB3F520B4AA9E0083157D /* LaunchScreen.storyboard in Resources */,
+				174EB40E20B4AAF90083157D /* ContactTableViewController.xib in Resources */,
 				174EB3F220B4AA9E0083157D /* Assets.xcassets in Resources */,
-				174EB3ED20B4AA9C0083157D /* Main.storyboard in Resources */,
+				174EB42F20B5A5990083157D /* ContactViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,9 +271,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				174EB3EA20B4AA9C0083157D /* ViewController.swift in Sources */,
+				174EB41D20B4D1540083157D /* ContactTableViewCell.swift in Sources */,
+				174EB43220B5B35D0083157D /* File.swift in Sources */,
 				174EB3E820B4AA9C0083157D /* AppDelegate.swift in Sources */,
 				174EB3F020B4AA9C0083157D /* MyContacts.xcdatamodeld in Sources */,
+				174EB42620B4D4140083157D /* UIViewController+MyContacts.swift in Sources */,
+				174EB42920B507610083157D /* Contact+CoreDataClass.swift in Sources */,
+				174EB41520B4ABF70083157D /* ContactOld.swift in Sources */,
+				174EB42E20B5A5990083157D /* ContactViewController.swift in Sources */,
+				174EB42220B4D1F30083157D /* UITableViewCell+MyContacts.swift in Sources */,
+				174EB41120B4AB990083157D /* EditContactViewController.swift in Sources */,
+				174EB42A20B507610083157D /* Contact+CoreDataProperties.swift in Sources */,
+				174EB40D20B4AAF90083157D /* ContactTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,14 +305,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		174EB3EB20B4AA9C0083157D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				174EB3EC20B4AA9C0083157D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		174EB3F320B4AA9E0083157D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
