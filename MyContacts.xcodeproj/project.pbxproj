@@ -15,7 +15,6 @@
 		174EB40E20B4AAF90083157D /* ContactTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174EB40C20B4AAF90083157D /* ContactTableViewController.xib */; };
 		174EB41120B4AB990083157D /* EditContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EB40F20B4AB990083157D /* EditContactViewController.swift */; };
 		174EB41220B4AB990083157D /* EditContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174EB41020B4AB990083157D /* EditContactViewController.xib */; };
-		174EB41520B4ABF70083157D /* ContactOld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EB41420B4ABF70083157D /* ContactOld.swift */; };
 		174EB41D20B4D1540083157D /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EB41B20B4D1540083157D /* ContactTableViewCell.swift */; };
 		174EB41E20B4D1540083157D /* ContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174EB41C20B4D1540083157D /* ContactTableViewCell.xib */; };
 		174EB42220B4D1F30083157D /* UITableViewCell+MyContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EB42120B4D1F30083157D /* UITableViewCell+MyContacts.swift */; };
@@ -53,7 +52,6 @@
 		174EB40C20B4AAF90083157D /* ContactTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactTableViewController.xib; sourceTree = "<group>"; };
 		174EB40F20B4AB990083157D /* EditContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditContactViewController.swift; sourceTree = "<group>"; };
 		174EB41020B4AB990083157D /* EditContactViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditContactViewController.xib; sourceTree = "<group>"; };
-		174EB41420B4ABF70083157D /* ContactOld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactOld.swift; sourceTree = "<group>"; };
 		174EB41B20B4D1540083157D /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
 		174EB41C20B4D1540083157D /* ContactTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactTableViewCell.xib; sourceTree = "<group>"; };
 		174EB42120B4D1F30083157D /* UITableViewCell+MyContacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+MyContacts.swift"; sourceTree = "<group>"; };
@@ -151,7 +149,6 @@
 			children = (
 				174EB42720B507610083157D /* Contact+CoreDataClass.swift */,
 				174EB42820B507610083157D /* Contact+CoreDataProperties.swift */,
-				174EB41420B4ABF70083157D /* ContactOld.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -283,7 +280,6 @@
 				174EB3F020B4AA9C0083157D /* MyContacts.xcdatamodeld in Sources */,
 				174EB42620B4D4140083157D /* UIViewController+MyContacts.swift in Sources */,
 				174EB42920B507610083157D /* Contact+CoreDataClass.swift in Sources */,
-				174EB41520B4ABF70083157D /* ContactOld.swift in Sources */,
 				174EB42E20B5A5990083157D /* ContactViewController.swift in Sources */,
 				174EB42220B4D1F30083157D /* UITableViewCell+MyContacts.swift in Sources */,
 				174EB41120B4AB990083157D /* EditContactViewController.swift in Sources */,
