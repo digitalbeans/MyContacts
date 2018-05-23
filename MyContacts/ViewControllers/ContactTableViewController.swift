@@ -33,8 +33,8 @@ class ContactTableViewController: UITableViewController {
 		tableView.register(nib, forCellReuseIdentifier: ContactTableViewCell.reuseIdentifier())
 
 		// setup navigation bar
-		navigationItem.rightBarButtonItem = editButtonItem
-		navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(doAddContact(_:)))
+		navigationItem.leftBarButtonItem = editButtonItem
+		navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(doAddContact(_:)))
 		
 		navigationItem.title = Constants.title
 	}
